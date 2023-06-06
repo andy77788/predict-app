@@ -1,0 +1,2 @@
+git+https://github.com/joblib#egg=joblit
+git+https://github.com/streamlit#egg=streamlit
