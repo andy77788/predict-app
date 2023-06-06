@@ -1,15 +1,15 @@
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split
+# from sklearn.model_selection import train_test_split
 # import seaborn as sns
 # sns.set_theme(style="whitegrid")
-from sklearn.pipeline import make_pipeline
-from sklearn.preprocessing import RobustScaler, OneHotEncoder
-from sklearn.compose import ColumnTransformer
-from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
+# from sklearn.pipeline import make_pipeline
+# from sklearn.preprocessing import RobustScaler, OneHotEncoder
+# from sklearn.compose import ColumnTransformer
+# from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
 import joblib
 import streamlit as st
-from utils import columns
+# from utils import columns
 
 
 # # define column names
