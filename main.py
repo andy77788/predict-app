@@ -4,7 +4,7 @@ import joblib
 import streamlit as st
 
 model = joblib.load('SVM_model.joblib')
-st.title('Accessing risk level of CAD')
+st.title('CAD Risk Level Assessment')
 
 
 age = st.number_input('Input age (20-80 years old)', min_value=20, max_value=80, format="%d")
